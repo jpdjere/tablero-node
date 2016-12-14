@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu');
+
+html{
+}
+
+h1, h2, tspan, text, a {
+  font-family: Ubuntu;
+}
+#mainContainer {
+    margin: auto;
+    text-align: center;
+    //height: 600px
+}
+
+#seriesContainer{
+  display: none;
+  margin: 0 !important;
+}
+
+#tableroContainer {
+  display: block;
+}
+
+#chartContainer {
+   /* width: 40% !important;*/
+   /* margin: 0 10px;*/
+    //box-shadow: 0 0 20px -5px #000;
+    display: inline-block;
+    height: 100%
+}
+#ultimosDatosContainer {
+  /*width: 30%;*/
+  /*height: 600px;*/
+  /*margin: 0 10px;*/
+  display: inline-block;
+  background-color: #fff;
+  vertical-align: top;
+  //padding: 20px;
+}
+#ultimosDatosTable     tr   td:last-child {
+  //font-style: italic;
+  //background-color: rgba(255, 255, 255, 0.4);
+  max-width: 100px;
+}
+#ultimosDatosTable   {
+  width: 100%;
+  text-transform: uppercase;
+}
+#ultimosDatosTable     tr {
+  background-color: #fff;
+  line-height: 24px;
+  font-size: 12px;
+}
+#ultimosDatosTable     tr   td {
+  vertical-align: middle;
+}
+#ultimosDatosTable     tr:first-child {
+  //font-weight: bold;
+  font-size: 14px;
+  line-height: 32px;
+  background-color: #0091d1 !important;
+  color: #fff;
+}
+#ultimosDatosTable     tr:first-child   td {
+  border: solid 1px #fff
+}
+
+#ultimosDatosTable     tr:nth-child(odd) {
+  background-color: #c5e9f3;
+}
+#ultimosDatosTable   tbody   tr   td:last-child {
+  //font-style: italic;
+  //background-color: rgba(255, 255, 255, 0.4);
+  //max-width: 100px;
+}
+
+#pantalla {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    z-index: 2;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    //display: none;
+    transition: ease all 0.5s;
+    pointer-events: none;
+}
+.cd-main-content{
+  //background-image: url(../img/background.png);
+  background: #fff;
+}
+.pantalla-visible {
+    //display: block !important;
+    opacity: 0.8 !important;
+}
+.chart {
+  height: 100%;
+  min-width: 310px;
+  width: 100%;
+  background-color: #fafafa;
+}
+.highcharts-title {
+  font-size: 22px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0089c7 !important;
+  fill: #0089c7 !important;
+  text-align: left;
+}
+#ultimosDatosUnidades{
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.highcharts-credits{
+  //font-size: 16px !important;
+  //padding-top: 20px;
+}
+.cd-main-content{
+  //padding: 30px 0;
+}
+.cd-nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+#header{
+  background: #fff;
+  //box-shadow: 0 0 20px -5px #000;
+  user-select: none !important;
+  padding: 0 70px;
+  box-shadow: 0 0 40px -15px #000;
+}
+.ui-loader {
+  display: none;
+}
+.ui-page{
+  overflow: hidden;
+  min-height: 300px;
+  height: 0;
+}
+
+.cd-primary-nav   li   a {
+  //color: #126BAB;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Roboto;
+}
+.logoMinisterio {
+  height: 100%;
+  padding: 10px 0;
+  display: inline-block;
+  background: #fff;
+}
+.tituloTablero {
+  display: inline-block;
+  color: #fff;
+  //vertical-align: top;
+    margin-top: 80px;
+    background: #545554;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.tituloTablero   h1,h2{
+    margin: 0;
+    padding: 15px 70px;
+}

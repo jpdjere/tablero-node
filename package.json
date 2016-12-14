@@ -1,0 +1,23 @@
+{
+  "name": "beginner-test",
+  "version": "1.0.0",
+  "description": "A test for learning Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test",
+    "my-custom-script": "echo npm"
+  },
+  "author": "Juan Pablo Djeredjian",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.4",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.6",
+    "lodash": "^4.17.2",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}

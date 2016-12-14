@@ -1,0 +1,75 @@
+html{
+  overflow-x: hidden;
+}
+@media ( max-width: 1169px ) {
+  #tableroFloatingHeader{
+    width: Calc( 90% + 30px ) !important;
+    //box-shadow: 0 0 40px -15px #000;
+  }
+
+  #tableroContainer{
+    width: 90% !important;
+  }
+  #tableroFloatingHeader td{
+    font-size: 10px;
+  }
+	#header{
+    padding: 0 20px;
+  }
+  .tituloTablero{
+    margin-top: 50px;
+    height: 36px;
+    margin-bottom: 10px;
+  }
+  .tituloTablero h1{
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .cd-primary-nav li a {
+    font-size: 12px;
+  }
+  #chartContainer{
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .highcharts-contextbutton{
+    display: none;
+  }
+  #ultimosDatosTable{
+    margin-bottom: 20px;
+  }
+	}
+
+  @media ( max-width: 850px ) {
+    #tableroFloatingHeader{
+      display: none !important;
+      opacity: 0 !important;
+    }
+    #tableroContainer{
+      width: 100% !important;
+    }
+    #collapsedTableroContainer tr:first-child td{
+      margin-top: 0
+    }
+    #ultimosDatosTable tr:first-child td {
+      font-size: 10px;
+    }
+    .ui-content{
+      padding-top: 0 !important;
+    }
+    .chart{
+      padding-right: 10px;
+      background: #fff;
+    }
+  }
+
+  @media ( max-width: 950px ) {
+    #tableroContainer thead td{
+      font-size: 10px !important;
+      line-height: 12px !important;
+    }
+    #tableroFloatingHeader thead td{
+      font-size: 10px !important;
+      line-height: 12px !important;
+    }
+  }

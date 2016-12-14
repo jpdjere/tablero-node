@@ -1,0 +1,110 @@
+#collapsedTableroContainer .number0{
+
+	//margin-top:30px;
+	font-weight: bolder;
+  height: 30px;
+  line-height: 30px;
+	border-radius: 4px;
+	//background: linear-gradient(to top, #C5E9F3, #C5E9F3);
+	background: #C5E9F3;
+  font-weight: 500 !important;
+	cursor: pointer;
+}
+#collapsedTableroContainer tbody td{
+	border-radius: 3px;
+}
+
+#collapsedTableroContainer .number1:before{
+	content:"Unidad";
+	margin-left:15px;
+	font-weight:bolder;
+	float:left;
+}
+#collapsedTableroContainer .number1{
+	background-color: #f5f5f5;
+	text-align:right;
+	padding-right:15px;
+}
+
+#collapsedTableroContainer .number2:before{
+	content:"Periodo";
+	margin-left:15px;
+	font-weight:bolder;
+	float:left;
+}
+#collapsedTableroContainer .number2{
+	background-color: #f5f5f5;
+	text-align:right;
+	padding-right:15px;
+}
+
+#collapsedTableroContainer .number3:before{
+	content:"Valor";
+	margin-left:15px;
+	font-weight:bolder;
+	float:left;
+}
+#collapsedTableroContainer .number3{
+	background-color: #f5f5f5;
+	text-align:right;
+	padding-right:15px;
+}
+
+#collapsedTableroContainer .number4:before{
+	margin-left:15px;
+	font-weight:bolder;
+	content:"Variacion I.A.";
+	float:left;
+}
+#collapsedTableroContainer .number4{
+	background-color: #f5f5f5;
+	text-align:right;
+	padding-right:15px;
+}
+
+
+#collapsedTableroContainer .number5:before{
+	margin-left:15px;
+	font-weight:bolder;
+	content:"Periodo";
+	float:left;
+}
+#collapsedTableroContainer .number5{
+	background-color: #f5f5f5;
+	text-align:right;
+	padding-right:15px;
+}
+
+
+#collapsedTableroContainer .number6:before{
+	margin-left:15px;
+	font-weight:bolder;
+	float:left;
+	content:"2016";
+}
+#collapsedTableroContainer .number6{
+	background-color: #f5f5f5;
+	text-align:right;
+	padding-right:15px;
+}
+
+
+#collapsedTableroContainer .number7:before{
+	margin-left:15px;
+	font-weight:bolder;
+	content:"Var 2016/2015";
+	float:left;
+}
+#collapsedTableroContainer .number7{
+	background-color: #f5f5f5;
+	text-align:right;
+	padding-right:15px;
+}
+
+#collapsedTableroContainer .acumulado{
+	background-color: #dfe6e8;
+}
+
+#collapsedTableroContainer .udd{
+	background-color: #dfe6e8;
+}

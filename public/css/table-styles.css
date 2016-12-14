@@ -1,0 +1,247 @@
+@media ( max-width: 850px ) {
+	.spreadedTablero{
+		display:none;
+	}
+
+	.collapsedTablero{
+		display:block !important;
+	}
+	#tableroContainer tr{
+		display: block;
+		width: 100% !important;
+		height: 30px;
+		overflow: hidden;
+		transition: all ease 0.5s;
+		margin: 6px 0;
+	}
+}
+
+.spreadedTableRow{
+	height: 200px !important;
+}
+
+#tableroContainer{
+	width: 80%;
+	margin: auto;
+}
+#tableroContainer tr{
+	width:800px;
+}
+#tableroContainer td{
+	border:1px solid white;
+	border-collapse: collapse;
+	//padding:10px 20px 10px 20px;
+	text-align:center;
+	color:white;
+	font-family: Roboto;
+	font-size:11px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
+#tableroContainer thead td{
+	background-color: #0091D1;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+		padding: 10px;
+}
+
+#tableroContainer tbody td{
+	background-color: #C5E9F3;
+	color: #58595B;
+	line-height: 16px;
+}
+
+.innerTable tbody tr:hover td{
+	background: #F2FCFF !important;
+}
+
+#tableroFloatingHeader tr{
+	//width:800px;
+}
+#tableroFloatingHeader td{
+	border:1px solid white;
+	//border-collapse: collapse;
+	//padding:10px 20px 10px 20px;
+	text-align:center;
+	color:white;
+	//font-family: Roboto;
+	font-size:12px;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+#header{
+	perspective: 1000px;
+}
+#tableroFloatingHeader thead td{
+	font-family: Roboto;
+	background-color: #0091D1;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+		padding: 10px;
+}
+
+#tableroFloatingHeader{
+		opacity: 0;
+    /* transform: rotateX(90deg); */
+    transition: box-shadow ease 0.2s;
+    margin-top: -5px;
+    pointer-events: none;
+    width: Calc(80% + 110px);
+		display: table !important;
+    /* box-shadow: 0 0 40px -15px; */
+}
+.opacity1{
+		opacity: 1 !important;
+		//transform: rotateX(0deg) !important;
+		//box-shadow: 0 0 40px -15px;
+}
+.hidden{
+	opacity: 0 !important;
+}
+
+table{
+	table-layout: fixed;
+	width: 100%;
+}
+
+.tablero{
+	//width:95%;
+	/*width:1190px;*/
+	margin:0 auto;
+	margin-bottom: 70px;
+}
+
+.subtitulo{
+	padding:10px;
+}
+.innerTable{
+	padding:0px;
+}
+.innerTable td{
+
+	border:1px solid #999 !important;
+	border-collapse: collapse;
+	padding:10px 5px;
+	text-align:center;
+	background-color: white !important;
+	//color:#000 !important;
+	font-family: Ubuntu;
+	font-size:22px;
+}
+
+
+/*--------LE SACO LOS BORDES NEGROS A LA PRIMERA Y ULTIMA
+			FILA DE CADA CATEGORIA---------------------------*/
+
+.innerTable tr:first-child td{
+	border-top:none !important;
+}
+
+.innerTable tr:last-child td{
+	border-bottom:none !important;
+}
+
+/*-----------------------------------------------------------*/
+
+/*------------DEFINO EL ANCHO DE CADA CELDA de los datos-------------------*/
+#headerIndicador{
+	width:350px !important;
+}
+
+#headerUnidad{
+	width:100px !important;
+}
+
+/*------------DEFINO EL ANCHO DE CADA CELDA de los datos-------------------*/
+
+/*indicador*/
+.innerTable tr td:first-child{
+	font-weight: bold;
+	width:30% !important;
+	color:#39acde !important;
+	border-color:#999 !important;
+
+}
+/*unidad*/
+.innerTable tr td:nth-child(2){
+
+	    width: 10% !important;
+
+}/*UDD: periodo*/
+.innerTable tr td:nth-child(3){
+    width: 10% !important;
+	/*width:120px;*/
+
+}/*UDD: periodo*/
+.innerTable tr td:nth-child(4){
+    width: 10% !important;
+	/*width:120px;*/
+
+}
+.innerTable tr td:nth-child(5){
+    width: 10% !important;
+	/*width:120px;*/
+
+}
+.innerTable tr td:nth-child(6){
+    width: 10% !important;
+	/*width:120px;*/
+
+}
+.innerTable tr td:nth-child(7){
+    width: 10% !important;
+	/*width:120px;*/
+
+}
+.innerTable tr td:nth-child(8){
+    width: 10% !important;
+	/*width:120px;*/
+
+}
+
+.innerTable .number0{
+	border-left:none !important;
+t;
+}
+.innerTable .number7{
+	border-right:none !important;
+}
+
+/*STYLING DE COLORES*/
+td.number3, td.number4, td.number6, td.number7{
+	background-color: #f8f8f8 !important;
+	transition: all ease 0.2s;
+}
+.upValue{
+	color: #00B050 !important;
+}
+.downValue{
+	color: #C00000 !important;
+}
+.upValue::after{
+   font-family: FontAwesome;
+   content: " \f077";
+}
+.downValue::after{
+   font-family: FontAwesome;
+   content: " \f078";
+}
+.rojo{
+	color: #C00000 !important;
+}
+.verde{
+	color: #00B050 !important;
+}
+
+/*EXCEPCION DE FLECHITAS
+#monetario td::after, #fiscal td::after{
+	content:"" !important;
+}
+#monetario td, #fiscal td{
+	color: #58595B !important;
+}*/
