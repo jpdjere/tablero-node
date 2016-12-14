@@ -115,5 +115,5 @@ app.get('*', function(request, response){
 })
 
 //Fire it up!
-app.listen(port);
+app.listen(process.env.PORT || port);
 console.log('Listening on port ', port);
